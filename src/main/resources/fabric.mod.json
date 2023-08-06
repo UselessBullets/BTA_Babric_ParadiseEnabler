@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
-  "version": "${version}",
+  "id": "aetherenabler",
+  "version": "1.2.0",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "Aether Enabler",
+  "description": "Enables survival access to the unfinished paradise/aether dimension.",
   "authors": [
-    "Turnip Labs"
+    "Useless"
   ],
   "contact": {
-    "homepage": "",
+    "homepage": "https://discord.com/channels/866992171319558144/1137195724627521647",
     "sources": ""
   },
 
@@ -18,11 +18,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-        "turniplabs.examplemod.ExampleMod"
+      "useless.aetherenabler.AetherEnabler"
     ]
   },
   "mixins": [
-      "examplemod.mixins.json"
+    "aetherenabler.mixins.json"
   ],
 
   "depends": {
