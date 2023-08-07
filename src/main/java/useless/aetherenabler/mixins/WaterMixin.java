@@ -22,7 +22,7 @@ public class WaterMixin extends Block {
     @Override
     public void onBlockAdded(World world, int x, int y, int z) {
 
-        if (world.getBlockId(x, y-1, z) == ((BlockPortal)Block.portalParadise).portalFrameId){
+        if (world.getBlockId(x, y-1, z) == ((BlockPortal)Block.portalParadise).portalFrameId && !world.isClientSide){
             ((BlockPortal)Block.portalParadise).tryToCreatePortal(world, x, y, z);
         }
         this.checkForHarden(world, x, y, z);
