@@ -4,6 +4,7 @@
     "package": "useless.aetherenabler.mixins",
     "compatibilityLevel": "JAVA_8",
     "mixins": [
+        "PortalMixin",
         "WaterMixin"
     ],
     "client": [
