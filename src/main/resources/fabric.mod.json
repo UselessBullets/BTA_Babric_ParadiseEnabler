@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "aetherenabler",
-  "version": "1.2.2",
+  "version": "1.3.0",
 
   "name": "Aether Enabler",
   "description": "Enables survival access to the unfinished paradise/aether dimension.",
@@ -10,7 +10,7 @@
   ],
   "icon": "icon.png",
   "contact": {
-    "homepage": "https://github.com/UselessBullets?tab=repositories",
+    "homepage": "https://github.com/UselessBullets/BTA_Babric_ParadiseEnabler",
     "sources": ""
   },
 
@@ -27,7 +27,8 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.13.3"
+    "fabricloader": ">=0.13.3",
+    "halplibe": ">=2.1.1"
   },
   "suggests": {
   }
