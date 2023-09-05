@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "aetherenabler",
-  "version": "${version}",
+  "version": "1.2.2",
 
   "name": "Aether Enabler",
   "description": "Enables survival access to the unfinished paradise/aether dimension.",

@@ -23,7 +23,6 @@ public class WaterMixin extends Block {
     public void onBlockAdded(World world, int x, int y, int z, CallbackInfo info) {
         if (world.getBlockId(x, y-1, z) == ((BlockPortal)Block.portalParadise).portalFrameId && !world.isClientSide){
             ((BlockPortal)Block.portalParadise).tryToCreatePortal(world, x, y, z);
-
         }
 
     }
